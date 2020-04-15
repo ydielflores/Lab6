@@ -6,8 +6,8 @@ it easier for you to align the columns. O(1), O(log n), O(n), O(n log n), O(n^2)
 = Method           Linked           Dynamic        Embedded       Embedded  =
 =                  structure        array          LinkedList     ArrayList =
 =============================================================================
-   add				O(N)			O(1)
-   remove			O(N)
-   removeIndex		O(N)
-   firstIndex
-   get								O(logN)
+   add				O(N)			O(N)			O(N^2)			O(N^2)
+   remove			O(N)			O(N)			O(N^2)			O(N^2)
+   removeIndex		O(N)			O(N)			O(N)			O(N)
+   firstIndex		O(1)			O(1)			O(1)			O(1)
+   get				O(1)			O(1)			O(1)			O(1)
